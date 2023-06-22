@@ -1,6 +1,4 @@
-﻿import url('https://fonts.cdnfonts.com/css/gilroy-bold');
-
-* {
+﻿* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -23,14 +21,12 @@ img {
 	margin: 0 auto;
 }
 
-/* --------------------------- */
-
 header {
     margin-bottom: 82.71px;
     margin-top: 40px;
 }
 
-.header__wrapper{
+.header__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,9 +71,6 @@ main {
 
 } 
 
-.img-right{
-}
-
 .big-title {
     font-family: 'Gilroy-Bold';
     font-size: 60px;
@@ -100,7 +93,7 @@ main {
     margin-top: 37px;
 }
 
-.btn{
+.btn {
     width: 140px;
     height: 50px;
     background: #F25822;
@@ -112,7 +105,7 @@ main {
     color: #FFFFFF; 
 }
 
-.btn1{
+.btn1 {
     width: 140px;
     height: 50px;
     border-radius: 50px;
@@ -133,7 +126,7 @@ main {
     color: #FFFFFF;
 }
 
-.logos{
+.logos {
     display: flex;
     width: 1170px;
     justify-content: space-between;
@@ -231,7 +224,7 @@ main {
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 
-.card__high h2{
+.card__high h2 {
     padding-top: 25px;
     padding-bottom: 22px;
     font-family: 'Gilroy-Bold';
