@@ -261,3 +261,7 @@ main {
     border-radius: 50px; 
     border: #F25822;   
 }
+
+a {
+    text-decoration: none;
+  }
