@@ -1,0 +1,269 @@
+﻿* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+.header-link a {
+   text-decoration: none;
+   color: #E8E8E8;
+}
+
+.header-link a:visited {
+   color: #E8E8E8;
+}
+
+
+.center {
+   padding-left: calc(50% - 570px);
+   padding-right: calc(50% - 570px);
+}
+
+.header-link {
+   background: #222222;
+   color: #E8E8E8;
+   display: flex;
+   align-items: center;
+   gap: 867px;
+   justify-content: center;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   flex-wrap: wrap;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 41px;
+}
+
+.user {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   gap: 33px;
+}
+
+.header {
+   background: #F1E4E6;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   gap: 64px;
+   flex-wrap: wrap;
+}
+
+.photo-hed {
+   margin-left: -348px;
+}
+
+.header-text {
+   border-left: 12px solid #F16D7F;
+   padding-left: 16px;
+}
+
+.title {
+   font-style: normal;
+   font-weight: 900;
+   font-size: 48px;
+   line-height: 58px;
+   text-transform: uppercase;
+   color: #222222;
+}
+
+.title-text {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   color: #222222;
+   text-transform: uppercase;
+}
+
+.text-selection {
+   color: #F16D7F;
+}
+
+.offer {
+   margin-top: 65px;
+   margin-bottom: 96px;
+   display: grid;
+   grid-template-columns: repeat(3, 360px);
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+.item {
+   position: relative;
+}
+
+.img-item {
+   filter: brightness(40%);
+   width: 100%;
+}
+
+.img-text {
+   position: absolute;
+   top: 40%;
+   color: #E8E8E8;
+   width: 100%;
+   text-align: center;
+}
+
+.img-text-1 {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.img-text-2 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   text-transform: uppercase;
+   color: #F16D7F;
+}
+
+.item-big {
+   grid-column: span 3;
+}
+
+.products {
+   text-align: center;
+}
+
+.subtitle {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 36px;
+   color: #222222;
+}
+
+.products-text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: #9F9F9F;
+}
+
+.product-wrap {
+   margin-top: 48px;
+   display: grid;
+   grid-template-columns: repeat(3, 360px);
+   gap: 30px;
+}
+
+.item-products {
+   background: #F8F8F8;
+   padding-bottom: 24px;
+   text-align: left;
+}
+
+.product-title {
+   margin-top: 25px;
+   margin-left: 16px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16px;
+   color: #000000;
+}
+
+.product-text {
+   margin: 16px;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 17px;
+   color: #5D5D5D;
+}
+
+.price {
+   margin-left: 16px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #F16D7F;
+}
+
+.button {
+   width: 212px;
+   margin-bottom: 60px;
+   margin-top: 48px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   text-align: center;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #F26376;
+   border: 1px solid #F26376;
+   background: none;
+}
+
+.button:hover {
+   background: #F26376;
+   color: #FFFFFF;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   .center {
+      padding-left: calc(50% - 368px);
+      padding-right: calc(50% - 368px);
+   }
+
+   .header-link {
+      gap: 424px;
+   }
+
+   .header {
+      gap: 39px;
+   }
+
+   .user {
+      gap: 25px;
+   }
+
+   .offer {
+      grid-template-columns: repeat(3, 232px);
+      gap: 20px;
+   }
+
+   .product-wrap {
+      grid-template-columns: repeat(2, 360px);
+      gap: 16px;
+   }
+
+   .photo-hed {
+      width: 368px;
+      margin-left: -100px;
+   }
+
+   .title {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 53px;
+   }
+
+   .title-text {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+   }
+}
