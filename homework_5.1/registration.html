@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Open+Sans:wght@600;700;800&family=Raleway:wght@300;400;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="statik/styles/style.css">
+</head>
+
+<body>
+   <header class="header center">
+
+      <div class="header__left">
+         <a href="index.html"><img src="statik/images/top__menu__logo.svg" alt="логотип"></a>
+         <a href="#"><img src="statik/images/top__menu__search.svg" alt="поиск"></a>
+      </div>
+      <nav class="header__right">
+         <label for="header__check"><img src="statik/images/top__menu__menu.svg" alt="меню"></label>
+         <a href="#" class="header__link-site"><img src="statik/images/top__menu__profile.svg" alt="личный профиль"></a>
+         <a href="#" class="header__link-site"><img src="statik/images/top__menu__basket.svg" alt="корзина"></a>
+      </nav>
+      <input class="header__checkbox" id="header__check" type="checkbox" checked>
+      <div class="mobile-menu">
+         <h3 class="mobile-menu__heading">MENU</h3>
+         <div class="mobile-menu__box">
+            <div class="mobile-menu__item">
+               <a href="#" class="mobile-menu__title">MAN</a>
+               <ul class="mobile-menu__list">
+                  <li><a class="mobile-menu__link" href="#">Accessories</a></li>
+                  <li><a class="mobile-menu__link" href="#">Bags</a></li>
+                  <li><a class="mobile-menu__link" href="#">Denim</a></li>
+                  <li><a class="mobile-menu__link" href="#">T-Shirts</a></li>
+               </ul>
+            </div>
+            <div class="mobile-menu__item">
+               <a href="#" class="mobile-menu__title">WOMAN</a>
+               <ul class="mobile-menu__list">
+                  <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                  <li><a class="mobile-menu__link" href="">Jackets & Coats</a></li>
+                  <li><a class="mobile-menu__link" href="">Polos</a></li>
+                  <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                  <li><a class="mobile-menu__link" href="">Shirts</a></li>
+               </ul>
+            </div>
+            <div class="mobile-menu__item">
+               <a href="#" class="mobile-menu__title">KIDS</a>
+               <ul class="mobile-menu__list">
+                  <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                  <li><a class="mobile-menu__link" href="">Jackets & Coats</a></li>
+                  <li><a class="mobile-menu__link" href="">Polos</a></li>
+                  <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                  <li><a class="mobile-menu__link" href="">Shirts</a></li>
+                  <li><a class="mobile-menu__link" href="">Bags</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+   </header>
+
+   <header class="top-head center">
+      <div class="top-head__box">
+         <h1>SHOPPING CART</h1>
+      </div>
+   </header>
+
+
+   <section class="registration center">
+
+      <div class="registration__data">
+         <div class="registration__inputs">
+            <h6 class="registration__title">Your Name</h6>
+            <input class="registration__input" type="text" placeholder="First Name" required>
+            <input class="registration__input" type="text" placeholder="Last Name" required>
+         </div>
+
+         <div class="registration__checkboxes">
+            <input class="registration__checkbox" type="checkbox" id="checkbox1">
+            <label class="registration__label" for="checkbox1">Male</label>
+
+
+            <input class="registration__checkbox" type="checkbox" id="checkbox2">
+            <label class="registration__label" for="checkbox2">Female</label>
+
+
+         </div>
+
+         <div class="registration__inputs">
+            <h6 class="registration__title">Login details</h6>
+            <input class="registration__input" type="email" placeholder="Email" required>
+            <input class="registration__input" type="password" placeholder="Password" required>
+         </div>
+
+         <p class="registration__text">Please use 8 or more characters, with at least 1 number and a <br>
+            mixture of uppercase and lowercase letters</p>
+
+         <button class="registration__button">
+            JOIN NOW <svg width="17" height="10" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095V0.208095Z"
+                  fill="white" />
+               <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z"
+                  fill="white" />
+            </svg>
+         </button>
+
+      </div>
+
+      <div class="registration__info">
+         <p>LOYALTY HAS ITS PERKS</p>
+         <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as
+            soon as you join:</p>
+         <ul class="registration__column">
+            <li class="registration__li">15% off welcome offer</li>
+            <li class="registration__li">Free shipping, returns and exchanges on all orders</li>
+            <li class="registration__li">$10 off a purchase on your birthday</li>
+            <li class="registration__li">Early access to products</li>
+            <li class="registration__li">Exclusive offers & rewards</li>
+         </ul>
+      </div>
+
+   </section>
+
+
+
+   <div class="subscription center">
+
+      <figure class="subscription__staff">
+         <img src="statik/images/face.svg" alt="лицо">
+         <p class="subscription__staff__figure-text">“Vestibulum quis porttitor dui! Quisque<br> <em>viverra nunc
+               mi, a pulvinar
+               purus<br>
+               condimentum“</em></p>
+      </figure>
+
+      <div class="subscription__input-email">
+         <p class="subscription__input-email__text"><span class="subscription__input-email__title">SUBSCRIBE</span><br>
+            FOR OUR NEWLETTER AND PROMOTION</p>
+
+         <div class="subscription__input-email__submit">
+            <input class="subscription__input-email__submit__subscribe" type="email" required
+               placeholder="Enter Your Email">
+            <input class="subscription__input-email__submit__btn" type="submit" value="Subscribe">
+         </div>
+      </div>
+
+   </div>
+
+   <footer class="footer center">
+      <p class="footer__text">© 2021 Brand All Rights Reserved.</p>
+      <div class="footer__items">
+         <a class="footer__items__item" href="#"><svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="M6.74032 0.203125C3.55564 0.203125 0.408203 2.34063 0.408203 5.8C0.408203 8 1.63738 9.25 2.38233 9.25C2.68963 9.25 2.86655 8.3875 2.86655 8.14375C2.86655 7.85313 2.13091 7.23438 2.13091 6.025C2.13091 3.5125 4.03055 1.73125 6.4889 1.73125C8.60271 1.73125 10.1671 2.94062 10.1671 5.1625C10.1671 6.82187 9.50597 9.93437 7.36422 9.93437C6.59133 9.93437 5.93018 9.37187 5.93018 8.56563C5.93018 7.38438 6.74963 6.24062 6.74963 5.02187C6.74963 2.95312 3.835 3.32812 3.835 5.82812C3.835 6.35313 3.90018 6.93437 4.13298 7.4125C3.70463 9.26875 2.82931 12.0344 2.82931 13.9469C2.82931 14.5375 2.91311 15.1188 2.96899 15.7094C3.07452 15.8281 3.02175 15.8156 3.18316 15.7563C4.74757 13.6 4.69169 13.1781 5.3994 10.3562C5.78119 11.0875 6.76826 11.4812 7.55046 11.4812C10.8469 11.4812 12.3275 8.24688 12.3275 5.33125C12.3275 2.22813 9.66427 0.203125 6.74032 0.203125Z"
+                  fill="black" />
+            </svg>
+         </a>
+         <a class="footer__items__item" href="#"><svg width="17" height="14" viewBox="0 0 17 14" fill="none"
+               xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="M14.4184 3.74113C14.4285 3.88325 14.4285 4.02541 14.4285 4.16753C14.4285 8.50253 11.1512 13.4975 5.16133 13.4975C3.31595 13.4975 1.60168 12.9594 0.159668 12.0254C0.421861 12.0558 0.673935 12.066 0.946216 12.066C2.46887 12.066 3.87057 11.5483 4.98989 10.665C3.55797 10.6345 2.35797 9.69038 1.94452 8.39088C2.14621 8.42131 2.34788 8.44163 2.55966 8.44163C2.85209 8.44163 3.14455 8.401 3.4168 8.32997C1.92437 8.02538 0.805016 6.70559 0.805016 5.11169V5.07109C1.23861 5.31475 1.74285 5.46703 2.27726 5.48731C1.39996 4.89847 0.825192 3.89341 0.825192 2.75634C0.825192 2.14722 0.986506 1.58884 1.26887 1.10153C2.87224 3.09138 5.28232 4.39084 7.9848 4.533C7.93439 4.28934 7.90413 4.03556 7.90413 3.78175C7.90413 1.97463 9.35623 0.502563 11.1613 0.502563C12.0991 0.502563 12.9461 0.898501 13.5411 1.53809C14.2772 1.39597 14.9831 1.12184 15.6083 0.74622C15.3662 1.50766 14.852 2.14725 14.1764 2.55331C14.8318 2.48228 15.4671 2.2995 16.052 2.04572C15.6084 2.69544 15.0537 3.27409 14.4184 3.74113V3.74113Z"
+                  fill="black" />
+            </svg>
+         </a>
+      </div>
+   </footer>
+</body>
+
+</html>
