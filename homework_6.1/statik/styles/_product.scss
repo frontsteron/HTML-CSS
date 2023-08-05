@@ -1,0 +1,163 @@
+﻿@import 'vars';
+
+
+.main-product {
+    background-color: #F7F7F7;
+    position: relative;
+
+    &__img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-top: 11px;
+        padding-bottom: 42px;
+        box-sizing: border-box;
+
+        border: 1px solid rgba(234, 234, 234, 1);
+
+    }
+
+    &__button {
+        width: 47px;
+        height: 47px;
+        border: none;
+        background-color: #c0c0bb;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+    }
+
+    &__button:hover path {
+        fill: $main_color
+    }
+
+
+    &__center {
+        display: flex;
+        justify-content: center;
+        background: #FFF;
+    }
+
+    &__info {
+        margin-top: -65px;
+        margin-bottom: 129px;
+        padding: 65px 250px;
+
+        background-color: #FFFFFF;
+
+        border: 1px solid rgba(234, 234, 234, 1);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h4 {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 17px;
+            color: $main_color;
+        }
+
+        & span {
+            width: 63px;
+            border: 2px solid $main_color;
+            margin: 12.1px 0;
+        }
+
+        & h2 {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 22px;
+            color: #4D4D4D;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 17px;
+            color: #5E5E5E;
+
+            margin: 48.41px 0 32.27px;
+        }
+
+        &__price {
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 29px;
+            color: $main_color;
+
+            margin-bottom: 65.04px;
+        }
+
+        &__features {
+            margin: 0px 0 48.91px;
+            padding-top: 65.05px;
+            display: flex;
+            justify-content: center;
+            gap: 42px;
+            width: 641px;
+            border-top: 1px solid rgba(234, 234, 234, 1);
+        }
+
+        &__features button {
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            color: #6F6E6E;
+            background-color: white;
+
+            border: none;
+            cursor: pointer;
+        }
+
+        &__klick {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+        }
+
+        &__button {
+            padding: 14.62px 57px 8.57px 24px;
+            display: flex;
+            align-items: center;
+            gap: 22.91px;
+
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            color: $main_color;
+            border: 1px solid $main_color;
+        }
+
+        &__button:hover {
+            background-color: $main_color;
+            color: white;
+            transition: .3s;
+        }
+
+        &__button:hover path {
+            fill: white;
+        }
+    }
+
+    &__bottom {
+        background: #FFF;
+        margin-bottom: 128px;
+    }
+
+    &__bottom__items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}

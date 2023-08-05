@@ -1,0 +1,146 @@
+﻿@import 'vars';
+
+.registration {
+    padding-top: 64px;
+    padding-bottom: 96px;
+
+    display: flex;
+    gap: 128px;
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 20.5px;
+    }
+
+    &__title {
+        color: #222;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__input {
+        width: 360px;
+        padding: 13px 0 16px 17.24px;
+
+        border: 1px solid #A4A4A4;
+        stroke-width: 3px;
+        stroke: #A4A4A4;
+    }
+
+    &__input::placeholder {
+        color: #B1B1B1;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__checkboxes {
+        margin-top: 31px;
+        margin-bottom: 33px;
+
+        display: flex;
+        gap: 20px;
+    }
+
+    &__checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    &__label {
+        color: #000;
+        font-family: Lato;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+
+    &__label::before {
+        content: '';
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #A4A4A4;
+        border-radius: 50%;
+        margin-right: 10px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+
+    &__checkbox:checked+label::before {
+        border-color: $main_color;
+        background-color: $main_color;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+      }
+
+    &__text {
+        margin-top: 15px;
+        margin-bottom: 39px;
+        color: #B1B1B1;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__button {
+        padding: 16px 0;
+        width: 167px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        color: #FFF;
+        background-color: #F16D7F;
+        border: none;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        cursor: pointer;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    &__column {
+        list-style-type: none;
+    }
+
+    &__li {
+        padding-bottom: 16px;
+        display: flex;
+        gap: 28px;
+    }
+
+    &__li::before {
+        content: url(../images/registration/Vector.svg)
+        
+    }
+}
